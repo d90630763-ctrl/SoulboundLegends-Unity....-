@@ -1,0 +1,432 @@
+{
+  "project": "Soulbound Legends",
+  "unityVersion": "6000.5.6f1",
+  "canonicalLobby": "SoulboundLegendsLobby_System_READY_MADE_v2.zip",
+  "duplicatesExcluded": [
+    "SoulboundLegendsLobby_System.zip",
+    "SoulboundLegends_LobbySystem_FINAL.zip",
+    "FINAL_45_Unity_System_ZIPs_COMPLETE_SET.zip"
+  ],
+  "integrationStatus": "assembled-structurally; Unity editor compilation and runtime tests intentionally left for developer testing",
+  "systems": [
+    {
+      "source": "SoulboundLegendsLobby_System_READY_MADE_v2.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/Lobby_READY_MADE_v2",
+      "unity_files_copied": 57,
+      "sha256": "28904932e0ae944c18ef38413b725cd1d7003627cd8a19881df7ff56585f7819"
+    },
+    {
+      "source": "SoulboundLegends_AudioMusicSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_AudioMusicSystem_FINAL",
+      "unity_files_copied": 18,
+      "sha256": "e481b1fa5caaf48a825f727610239bc280d6946d040cabcbb38327d558194a47"
+    },
+    {
+      "source": "SoulboundLegends_AuthenticationIdentityBackend_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_AuthenticationIdentityBackend_FINAL",
+      "unity_files_copied": 36,
+      "sha256": "55615b2c373d966302785ee46095c53e18b7efd257ac7e76e91072f6f85373e7"
+    },
+    {
+      "source": "SoulboundLegends_CentralProgression_System_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_CentralProgression_System_FINAL",
+      "unity_files_copied": 12,
+      "sha256": "6177427e777a009bcbece1ce7abb8e6e7af6a5ae444ebf7030a9c2765750225d"
+    },
+    {
+      "source": "SoulboundLegends_Final_Adventure_World_System_v2.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Final_Adventure_World_System_v2",
+      "unity_files_copied": 22,
+      "sha256": "00c57a463c4e2e6bf8eff4811205e4dd00211c87da5f99963662e5e11b080a8d"
+    },
+    {
+      "source": "SoulboundLegends_Final_BR_System.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Final_BR_System",
+      "unity_files_copied": 15,
+      "sha256": "3f75a528f75173d6afac741f815d4378038b319842e5ca271c9626204572b384"
+    },
+    {
+      "source": "SoulboundLegends_Final_CS_World_Generator_System.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Final_CS_World_Generator_System",
+      "unity_files_copied": 9,
+      "sha256": "d01f47f944487600f006d4ca9790ce25e99ec0787938b95b963f82aa369d5572"
+    },
+    {
+      "source": "SoulboundLegends_Final_Complete_CS_System.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Final_Complete_CS_System",
+      "unity_files_copied": 21,
+      "sha256": "a00a5f39b382891b39d4800325a32498a196ac5fc599122f534062c75ab193d2"
+    },
+    {
+      "source": "SoulboundLegends_Final_Siege_System.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Final_Siege_System",
+      "unity_files_copied": 14,
+      "sha256": "5dab88682ad955713416aa9dc7b085a5f4e68a1f6805ac05092ead2278117e24"
+    },
+    {
+      "source": "SoulboundLegends_FinishingAnimationSystem.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_FinishingAnimationSystem",
+      "unity_files_copied": 6,
+      "sha256": "59ea547443dfb0ab0b6741c7e623f75f5f72fe8a74e0f94398e29a226feed30a"
+    },
+    {
+      "source": "SoulboundLegends_GooglePlayCommerceBridge_Final.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_GooglePlayCommerceBridge_Final",
+      "unity_files_copied": 12,
+      "sha256": "4b8bbceaac73dd51d4f7690b2d19f5ed50306c457f3d113325a8568e4aea89cf"
+    },
+    {
+      "source": "SoulboundLegends_InGameCommerceAuctionSystem_Final.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_InGameCommerceAuctionSystem_Final",
+      "unity_files_copied": 10,
+      "sha256": "e078482dda45713c48113653241abf036f09bd7783a50d23ba718489ff2b6a61"
+    },
+    {
+      "source": "SoulboundLegends_Level10BreakthroughSystem.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_Level10BreakthroughSystem",
+      "unity_files_copied": 2,
+      "sha256": "8726c62e5a4261ac8b21c4a683e471b936adc9576f3cbdc28505a829cc13b99e"
+    },
+    {
+      "source": "SoulboundLegends_LiveUpdateSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_LiveUpdateSystem_FINAL",
+      "unity_files_copied": 13,
+      "sha256": "9e1279fc34039879f06711f037d271663e2a9724787561c7a48e91e2e6dd35bb"
+    },
+    {
+      "source": "SoulboundLegends_MasterAuthoritySystem_FINAL_v2.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_MasterAuthoritySystem_FINAL_v2",
+      "unity_files_copied": 13,
+      "sha256": "c732808cbe9d1b9ac95f406b17a025b9f00440262925427742292ec5b73aabff"
+    },
+    {
+      "source": "SoulboundLegends_NetworkTransport_MULTIPLAYER_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_NetworkTransport_MULTIPLAYER_FINAL",
+      "unity_files_copied": 21,
+      "sha256": "dd57f80a87e588fbae03feece6e9f630b20cd5c6765da2c281be0c7e33901b55"
+    },
+    {
+      "source": "SoulboundLegends_PlayerDatabaseBackend_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_PlayerDatabaseBackend_FINAL",
+      "unity_files_copied": 27,
+      "sha256": "4955962270c3c9e520c63c20a0c395a83b84cfed904fb73dfa5f567eeb741aee"
+    },
+    {
+      "source": "SoulboundLegends_RiftSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_RiftSystem_FINAL",
+      "unity_files_copied": 23,
+      "sha256": "5f600c288b0b371951b377628a83c8d02dcc2478f6802442bdb503bcc9a102f3"
+    },
+    {
+      "source": "SoulboundLegends_SkillVFXGenerationSystem.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_SkillVFXGenerationSystem",
+      "unity_files_copied": 3,
+      "sha256": "63c8a900e45c9ee1a66c1ce6d7d869e1ba0ffbe3c42f1dd08b3c967ccd2ddcd2"
+    },
+    {
+      "source": "SoulboundLegends_SupremeRuinSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_SupremeRuinSystem_FINAL",
+      "unity_files_copied": 16,
+      "sha256": "877433388e6eb08610d81cb1ab26743059e9bd2c64b9f26812be5606c2e3deef"
+    },
+    {
+      "source": "SoulboundLegends_UniversalAnimationGenerationSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_UniversalAnimationGenerationSystem_FINAL",
+      "unity_files_copied": 12,
+      "sha256": "486d7005e7f5def26f55492f41f207d8fed8385e1b1b36134ddfc3e705797f25"
+    },
+    {
+      "source": "SoulboundLegends_UniversalInstanceCoordinator_FINAL-1.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_UniversalInstanceCoordinator_FINAL",
+      "unity_files_copied": 23,
+      "sha256": "f7551c4b4935656772d287be086dcdbd663239860c2868d8416bc4e924592356"
+    },
+    {
+      "source": "SoulboundLegends_VoiceTransformationSystem_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_VoiceTransformationSystem_FINAL",
+      "unity_files_copied": 9,
+      "sha256": "9b23393a29c47905c3935fa756118b2eaaedd7875a358b8af9546989925ad8c4"
+    },
+    {
+      "source": "SoulboundLegends_WorldNPC_Assembly_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/SoulboundLegends_WorldNPC_Assembly_FINAL",
+      "unity_files_copied": 18,
+      "sha256": "52e4353a679856d1722ae94b16d7a259c75435eab374ab7322c1bd9425e0a5c6"
+    },
+    {
+      "source": "System01_MonsterHumanGeneration_FINAL-1.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System01_MonsterHumanGeneration_FINAL",
+      "unity_files_copied": 13,
+      "sha256": "20e8452c052d34bd9d2ca3b8a06eb75f1bdb7b697d56e1d2a7a5bb61f54f6763"
+    },
+    {
+      "source": "System02_GeneralMonster_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System02_GeneralMonster_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "b37731dcc18eea3b728eb810e4113be14e7042b8e9feee383442464dfb4ff994"
+    },
+    {
+      "source": "System03_GeneralSkill_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System03_GeneralSkill_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "813b75a656521c0ab010a021bc583ca84f5dbcae6b30430c427bbb1b468518bd"
+    },
+    {
+      "source": "System04_AdvancedTerrainGenerator_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System04_AdvancedTerrainGenerator_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "a3f3c8e82a15bad18c3effd6bfd01b110ed5638f63479e571b5bdf5ebc9069a1"
+    },
+    {
+      "source": "System05_TerrainDestruction_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System05_TerrainDestruction_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "37d0d2366aee1ec0be07acaaf1933ba17473e12416c3f12f00d1f86ab0d804ad"
+    },
+    {
+      "source": "System06_AdvancedLiquidWater_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System06_AdvancedLiquidWater_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "b36da5a5583ff020713b00c6ea3e496f4a2b2a43996102b3789f409755a14259"
+    },
+    {
+      "source": "System07_CharacterCombatControl_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System07_CharacterCombatControl_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "980183c72f20bb524ee68e21109eccb4caad37fd9f51d4d340f3ee1a18c0908e"
+    },
+    {
+      "source": "System08_CharacterProgression_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System08_CharacterProgression_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "04baa5a51e46f0130fa30600b5ee2d2ea869a34cab825d60f43a0f89738f11e2"
+    },
+    {
+      "source": "System09_EquipmentWeaponMaterial_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System09_EquipmentWeaponMaterial_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "3b0e2448e179161d146c866d7543dc195dd7cb8a1e961cf82bd14e8543c6396f"
+    },
+    {
+      "source": "System10_CraftingBlacksmith_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System10_CraftingBlacksmith_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "057f72a86d26527ca44972c6d8ed984b008d4d1f0df18ecaa457332b563e2cff"
+    },
+    {
+      "source": "System11_Alchemy_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System11_Alchemy_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "6bb2542290ae929aa39985501a19a24591ffcf30dc83a6f726bf8cfb036d4a25"
+    },
+    {
+      "source": "System12_NPC_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System12_NPC_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "4c5aa7868c90692999d243eff800c2bac5f98b28cb588fd43fa2d6e992a5655a"
+    },
+    {
+      "source": "System13_Portal_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System13_Portal_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "730472100ceb07b355357753e0d080acc165a3f5361738abf4fa52f590391ffa"
+    },
+    {
+      "source": "System14_MultiplayerAOI_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System14_MultiplayerAOI_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "aa59a1d2c6d55699a3423bcd0060f0297cec85965cfe4733a9153671044544db"
+    },
+    {
+      "source": "System15_ServerAuthorizationSecurity_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System15_ServerAuthorizationSecurity_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "0ef91f79b5b831ce319d1599c60b5dd75fd133a4ecc522f9386bb8dff3510060"
+    },
+    {
+      "source": "System16_Vegetation_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System16_Vegetation_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "b13cbef7da1ba5160005c5be3a75be9060457fff42a111ce497c2bb5aa21e442"
+    },
+    {
+      "source": "System17_PartyArtifactLink_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System17_PartyArtifactLink_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "20684cdbb1652710651d60ba925cd209536327a61de46f77e654b099a10eaaae"
+    },
+    {
+      "source": "System18_DungeonBossEventInstance_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System18_DungeonBossEventInstance_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "8c72e6c8f49ddaffd6cd2be2fa0073d217a73191e5313339c691777310743c43"
+    },
+    {
+      "source": "System19_WorldKingdom_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System19_WorldKingdom_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "1c495ae4c98c6b9dafad0be9363c038a7c33dd56206b089ca6f482d6e0b8cd8f"
+    },
+    {
+      "source": "System20_AnimationIK_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System20_AnimationIK_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "f1277a62aefdf6a589c7f3a71bda39b18a1717cdc65984537e3ad05d977b0fa7"
+    },
+    {
+      "source": "System21_DynamicInnInteriorInstance_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System21_DynamicInnInteriorInstance_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "1398c68941a503041ebd762d133b770865d0f33d84174d1e2aedaa5cfd838d81"
+    },
+    {
+      "source": "System22_AccountSession_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System22_AccountSession_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "80343fada95cb740a1e164cdd22ef5c97cbd742c0abc33792b1b6eb431251199"
+    },
+    {
+      "source": "System23_PersistenceSaveLoad_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System23_PersistenceSaveLoad_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "20f41924d8c638c332aff8041b8e5627315f54cf158c2d24a730f8c698ec6b7d"
+    },
+    {
+      "source": "System24_MatchmakingSessions_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System24_MatchmakingSessions_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "79601b1f23eea583b659a5939142c4a2af727cbf7c268eefa1bcf007b0622801"
+    },
+    {
+      "source": "System25_SocialFriendsChat_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System25_SocialFriendsChat_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "5d2c8557cd7fbf3bae6bdebb62ae499e87304d27da0eff6a4feb3053e1808957"
+    },
+    {
+      "source": "System26_Quest_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System26_Quest_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "c0b0322cbdead826ad0cc5bcbc78d50e14fec55160c301e41051e764b8520350"
+    },
+    {
+      "source": "System27_WorldEvents_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System27_WorldEvents_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "454af222a823597bdd67eede9fa2f21a8822973f37e33c7634ab370c8b07366c"
+    },
+    {
+      "source": "System28_DivineInheritanceWorldState_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System28_DivineInheritanceWorldState_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "a73d347915499f62943a29e900e8db53a5a4550c1425cec9add3b8adf5809151"
+    },
+    {
+      "source": "System29_EconomyTrading_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System29_EconomyTrading_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "5ec8016422ff66ff1caf2c9abbb7141779044f88c59f2eaaacb51d142ec85f4b"
+    },
+    {
+      "source": "System30_DeathRespawn_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System30_DeathRespawn_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "7bd46f82ee550a07c19d382621875717fb92931ee7b56077914d5ce580f6a811"
+    },
+    {
+      "source": "System31_RollbackTransactions_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System31_RollbackTransactions_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "d85aca48a1bc03490e4348a551bde07af5fa61575f5fe956df8fe0308e72fd54"
+    },
+    {
+      "source": "System32_SecurityAntiCheat_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System32_SecurityAntiCheat_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "1732153fd1f2b7ceb6cdf42b577cb6301037381f9d06d4be3af301b807dff675"
+    },
+    {
+      "source": "System33_AdminModeration_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System33_AdminModeration_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "f47e81c7018531f173e855d3c38bbc59ecc597ac6b9d0cf684ef3b4d1986dfb1"
+    },
+    {
+      "source": "System34_NotificationsTutorial_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System34_NotificationsTutorial_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "b1bd7b3dd5ced17c678c9efb751a7bde5650ac5959b249d6a40251efd5453e5b"
+    },
+    {
+      "source": "System35_GeneralMobileControls_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System35_GeneralMobileControls_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "dd2a083b56ba024c07d4a5ee3a07dc0b016120a611ab68e3b09133e0a67caea6"
+    },
+    {
+      "source": "System36_HUDSettingsSystemMenu_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System36_HUDSettingsSystemMenu_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "e846199a9203c5f87f33e89baae742e06ff0ee56cbfb4d8ec8ff4d9d16575e53"
+    },
+    {
+      "source": "System37_MapNavigation_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System37_MapNavigation_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "9f791a3e3c65a3d036e2ac8b9433739b977dd7229861be1e189189c95a3f1bb1"
+    },
+    {
+      "source": "System38_AudioWeatherWorldStreaming_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System38_AudioWeatherWorldStreaming_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "3793458dd4f0b0129c6a6f0c4afc24880faa7e2b172eac2e5285f1879d9bb9bd"
+    },
+    {
+      "source": "System39_OptimizationDevice_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System39_OptimizationDevice_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "57f650f322422a2403e951f07ecbd54c43c24f843213f827d9f184587745dcfa"
+    },
+    {
+      "source": "System40_LocalizationLiveOps_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System40_LocalizationLiveOps_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "79dfcdb065c85121c51e7048024556a81a67fd1a07a0f08b6e5abfb4f47001e9"
+    },
+    {
+      "source": "System41_AnalyticsDiagnostics_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System41_AnalyticsDiagnostics_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "74d3fde824c413aa9ddbcb0e9b6ddba893120bba9548e9ca022fc892c7d5ad27"
+    },
+    {
+      "source": "System42_Monetization_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System42_Monetization_FINAL",
+      "unity_files_copied": 6,
+      "sha256": "99476a27909e8bc5e2c098819d76d91fc1ed42b56846fcc926c2efc281f9004f"
+    },
+    {
+      "source": "System43_ServerAuthorityCore_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System43_ServerAuthorityCore_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "355c574ab1ec27551bba6e4b50a249c05c2aec7c5afb4380a5e7ccecbe1c475d"
+    },
+    {
+      "source": "System44_NetworkAdapterContracts_FINAL.zip",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System44_NetworkAdapterContracts_FINAL",
+      "unity_files_copied": 7,
+      "sha256": "89db69bcd2d0e51c9e7e4d4d4ca5192a215f92efcf3e8fed48d9fc1f5fe4a0fd"
+    },
+    {
+      "source": "System45_GameFoundationBootstrap_FINAL.zip (extracted from FINAL_45_Unity_System_ZIPs_COMPLETE_SET.zip)",
+      "canonical_folder": "Assets/SL/IntegratedSystems/System45_GameFoundationBootstrap_FINAL",
+      "unity_files_copied": 7
+    }
+  ],
+  "notes": [
+    "All Unity source packages were combined under Assets/SL/IntegratedSystems.",
+    "Server/backend components were kept outside Unity Assets.",
+    "Production secrets are intentionally absent.",
+    "Unity-generated .meta files are intentionally absent so Unity regenerates them."
+  ]
+}
