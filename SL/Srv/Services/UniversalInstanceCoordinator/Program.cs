@@ -1,0 +1,14 @@
+using SoulboundLegends.InstanceCoordinator.Server.Abstractions;
+using SoulboundLegends.InstanceCoordinator.Server.Services;
+using SoulboundLegends.InstanceCoordinator.Server.Api;
+var builder=WebApplication.CreateBuilder(args);
+builder.Services.AddSingleton<IInstancePersistence>(_=>new JsonFilePersistence(Environment.GetEnvironmentVariable("SL_INSTANCE_DATA_DIR")??"./instance-data"));
+builder.Services.AddSingleton<ServerRegistry>();
+builder.Services.AddSingleton<IServerProvider>(sp=>sp.GetRequiredService<ServerRegistry>());
+builder.Services.AddSingleton<IInstanceRuntimeProvisioner>(sp=>{var url=Environment.GetEnvironmentVariable("SL_INSTANCE_AGENT_URL")??throw new InvalidOperationException("SL_INSTANCE_AGENT_URL must point to the authoritative instance runtime agent.");return new HttpRuntimeProvisioner(new HttpClient(),url);});
+builder.Services.AddSingleton<IAuthority,AllowAllAuthority>();
+builder.Services.AddSingleton<IGameplayAdapter>(new GenericGameplayAdapter("generic"));
+builder.Services.AddSingleton<IInstanceCoordinator>(sp=>new UniversalInstanceCoordinator(sp.GetRequiredService<IInstancePersistence>(),sp.GetRequiredService<IServerProvider>(),sp.GetRequiredService<IInstanceRuntimeProvisioner>(),sp.GetRequiredService<IAuthority>(),new[]{sp.GetRequiredService<IGameplayAdapter>()}));
+builder.Services.AddRouting();
+builder.Services.ConfigureHttpJsonOptions(o=>o.SerializerOptions.PropertyNamingPolicy=null);
+var app=builder.Build(); app.MapGet("/health",()=>Results.Ok(new{status="ok",service="SoulboundLegends.UniversalInstanceCoordinator"})); app.MapCoordinator(app.Services.GetRequiredService<IInstanceCoordinator>()); app.Run();
