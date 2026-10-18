@@ -1,0 +1,4 @@
+Open the `Game` folder in Unity Hub. It must be the folder containing Assets, Packages, and ProjectSettings.
+Unity target: 6000.5.6f1.
+After import: Soulbound Legends > Game Builder > VALIDATE GENERATED PROJECT > BUILD GAME.
+Read Game/Assets/Documentation/REBUILD_DELIVERY_NOTES.md before testing.
